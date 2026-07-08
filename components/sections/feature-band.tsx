@@ -10,7 +10,7 @@ const ICONS: Record<Feature['icon'], LucideIcon> = {
 
 export function FeatureBand() {
   return (
-    <section className="grain relative overflow-hidden bg-ink py-[clamp(5rem,3.5rem+6vw,9rem)]">
+    <section className="grain relative overflow-hidden bg-ink py-[clamp(3.5rem,2.5rem+4vw,6rem)]">
       <div className="absolute inset-0 bg-[radial-gradient(70%_120%_at_50%_0%,rgba(139,36,18,0.35),transparent_65%)]" aria-hidden="true" />
       <Stagger className="container-x relative grid gap-10 sm:grid-cols-3 sm:gap-6">
         {features.map((f, i) => {
