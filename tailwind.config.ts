@@ -23,6 +23,10 @@ const config: Config = {
           DEFAULT: '#2B2018', // charcoal brown — text, footer, overlays
           soft: '#4A3A2C',
         },
+        ink: {
+          DEFAULT: '#17100B', // deep espresso-black — dramatic Mongolian ground
+          soft: '#241811',
+        },
         cream: '#F4EBDD', // warm cream — backgrounds, section fills
         offwhite: '#FBF7F0', // off-white — cards, whitespace
       },

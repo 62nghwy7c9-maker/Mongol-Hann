@@ -5,7 +5,7 @@ import { site, locations, nav } from '@/lib/data';
 export function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="grain relative overflow-hidden bg-charcoal text-cream/80">
+    <footer className="grain relative overflow-hidden bg-ink text-cream/80">
       <div className="container-x relative grid gap-10 py-16 md:grid-cols-[1.4fr_1fr_1fr] md:gap-12">
         {/* Brand */}
         <div>

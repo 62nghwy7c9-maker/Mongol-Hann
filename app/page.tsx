@@ -1,5 +1,6 @@
 import { Hero } from '@/components/sections/hero';
 import { BrandStory } from '@/components/sections/brand-story';
+import { MongolGrill } from '@/components/sections/mongol-grill';
 import { ImageBand } from '@/components/sections/image-band';
 import { BuffetMenu } from '@/components/sections/buffet-menu';
 import { FeatureBand } from '@/components/sections/feature-band';
@@ -11,12 +12,13 @@ export default function Home() {
     <>
       <Hero />
       <BrandStory />
+      <MongolGrill />
       <ImageBand
-        src="/images/teppan.jpg"
-        alt="Meeresfrüchte, Fleisch und Gemüse brutzeln auf dem heißen Grill, Dampf steigt auf"
-        label="Frisch vom Grill"
-        caption="Meeresfrüchte, Fleisch & Gemüse – brutzelnd frisch, mit aufsteigendem Dampf"
-        tone="ember"
+        src="/images/salatbar.jpg"
+        alt="Frische Salatbar mit knackigem Gemüse – Zucchini, Karotten, Brokkoli, Paprika"
+        label="Vom frischen Buffet"
+        caption="Knackiges Gemüse · bunte Salatbar · täglich frisch zubereitet"
+        tone="wood"
       />
       <BuffetMenu />
       <FeatureBand />

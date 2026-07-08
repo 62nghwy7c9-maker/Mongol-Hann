@@ -48,6 +48,7 @@ export const metadata: Metadata = {
     title: 'Mongol Hann — Chinesisches & Mongolisches Restaurant',
     description:
       'Frische Zutaten, gemütliche Atmosphäre und großzügige Buffets in Düren und Kerpen.',
+    images: [{ url: '/images/teppan.jpg', width: 1178, height: 1610, alt: 'Frisch vom Grill bei Mongol Hann' }],
   },
 };
 

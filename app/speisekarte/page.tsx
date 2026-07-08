@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Reveal, Stagger, StaggerItem } from '@/components/motion';
 import { Download, Info } from 'lucide-react';
-import { menu, menuPlaceholder, site } from '@/lib/data';
+import { menu, menuPlaceholder, menuNote, site } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'Speisekarte',
@@ -105,6 +105,13 @@ export default function SpeisekartePage() {
             </section>
           ))}
         </div>
+
+        <Reveal>
+          <p className="mx-auto mt-16 max-w-prose border-t border-charcoal/10 pt-6 text-center text-xs leading-relaxed text-charcoal/55">
+            {menuNote} Kennzeichnung von Allergenen und Zusatzstoffen im Restaurant und in der
+            PDF-Karte.
+          </p>
+        </Reveal>
       </div>
     </div>
   );

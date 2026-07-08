@@ -1,5 +1,6 @@
 import { Reveal, Stagger, StaggerItem } from '@/components/motion';
 import { MapEmbed } from '@/components/map-embed';
+import { Ornament } from '@/components/ornament';
 import { MapPin, Phone, Clock, Navigation } from 'lucide-react';
 import { locations } from '@/lib/data';
 
@@ -11,8 +12,11 @@ export function Locations() {
           <Reveal>
             <p className="eyebrow">Kontakt · Zwei Städte, eine Marke</p>
           </Reveal>
-          <Reveal delay={0.05}>
-            <h2 className="mt-3 font-display text-fluid-h2">Wir freuen uns auf Sie!</h2>
+          <Reveal delay={0.04}>
+            <Ornament width={200} className="mx-auto mt-4 text-amber" />
+          </Reveal>
+          <Reveal delay={0.08}>
+            <h2 className="mt-4 font-display text-fluid-h2">Wir freuen uns auf Sie!</h2>
           </Reveal>
           <Reveal delay={0.1}>
             <p className="mt-5 text-lg leading-relaxed text-charcoal/75">

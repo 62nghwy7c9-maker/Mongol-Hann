@@ -1,4 +1,5 @@
 import { Reveal, Stagger, StaggerItem } from '@/components/motion';
+import { Ornament } from '@/components/ornament';
 import { Clock } from 'lucide-react';
 import { buffets } from '@/lib/data';
 
@@ -10,8 +11,11 @@ export function BuffetMenu() {
           <Reveal>
             <p className="eyebrow">All you can enjoy</p>
           </Reveal>
-          <Reveal delay={0.05}>
-            <h2 className="mt-3 font-display text-fluid-h2">Unser Buffetmenü</h2>
+          <Reveal delay={0.04}>
+            <Ornament width={200} className="mx-auto mt-4 text-amber" />
+          </Reveal>
+          <Reveal delay={0.08}>
+            <h2 className="mt-4 font-display text-fluid-h2">Unser Buffetmenü</h2>
           </Reveal>
           <Reveal delay={0.1}>
             <p className="mt-5 text-lg leading-relaxed text-charcoal/75">
