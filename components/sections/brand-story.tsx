@@ -9,8 +9,8 @@ export function BrandStory() {
         {/* Image */}
         <Reveal className="order-1 md:order-none">
           <ImageSlot
-            alt="Warmes, gemütliches Restaurant-Interieur mit kommunalen Tischen"
-            caption="Dunkles Holz, warmes Ambientelicht, kommunale Tische"
+            src="/images/plating.jpg"
+            alt="Frisch angerichtete Teller mit Fleisch, Fisch und Gemüse, im Hintergrund der Grill"
             tone="wood"
             aspect="4/5"
             sizes="(max-width: 768px) 100vw, 45vw"

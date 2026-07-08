@@ -43,8 +43,8 @@ export function MenuDownload() {
         {/* Image */}
         <Reveal delay={0.05} className="order-1 md:order-none">
           <ImageSlot
-            alt="Farbenfrohe Gerichte, großzügig angerichtet"
-            caption="Farbenfrohe Gerichte · großzügiges Anrichten · glänzende Saucen"
+            src="/images/dessert.jpg"
+            alt="Farbenfroher Dessert- und Obstteller mit frischen Früchten und süßen Kleinigkeiten"
             tone="gold"
             aspect="3/4"
             sizes="(max-width: 768px) 100vw, 45vw"

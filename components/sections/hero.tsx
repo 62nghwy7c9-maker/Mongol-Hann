@@ -1,12 +1,13 @@
 'use client';
 
+import Link from 'next/link';
 import { motion, useReducedMotion } from 'framer-motion';
-import { Download, ArrowDown } from 'lucide-react';
+import { BookOpen, ArrowDown } from 'lucide-react';
 import { site, brandCopy } from '@/lib/data';
 
-// Drop the hero photograph here (steaming buffet spread / warm-lit interior,
-// golden tungsten light, shallow depth). Leave empty to show the warm fallback.
-const HERO_IMG = '';
+// Hero photograph — warm-lit interior, golden tungsten light.
+// Leave empty to show the warm fallback.
+const HERO_IMG = '/images/interior.jpg';
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -89,11 +90,11 @@ export function Hero() {
             {brandCopy.lead}
           </motion.p>
 
-          <motion.div {...rise(0.8)} className="mt-9 flex flex-wrap items-center gap-4">
-            <a href={site.menuPdf} download className="btn btn-primary">
-              <Download size={18} strokeWidth={2} />
-              Speisekarte herunterladen
-            </a>
+          <motion.div {...rise(0.8)} className="mt-10 flex flex-wrap items-center gap-4">
+            <Link href="/speisekarte" className="btn btn-primary">
+              <BookOpen size={18} strokeWidth={2} />
+              Zur Speisekarte
+            </Link>
             <a href="#buffets" className="btn btn-on-dark">
               Unsere Buffets
             </a>

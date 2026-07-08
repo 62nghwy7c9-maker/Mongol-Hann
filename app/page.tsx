@@ -12,17 +12,19 @@ export default function Home() {
       <Hero />
       <BrandStory />
       <ImageBand
-        alt="Frisch zubereitete Gerichte im brutzelnden Wok mit aufsteigendem Dampf"
-        label="Frisch aus dem Wok"
-        caption="Nahe, satte Food-Aufnahme · brutzelnder Wok · aufsteigender Dampf"
+        src="/images/teppan.jpg"
+        alt="Meeresfrüchte, Fleisch und Gemüse brutzeln auf dem heißen Grill, Dampf steigt auf"
+        label="Frisch vom Grill"
+        caption="Meeresfrüchte, Fleisch & Gemüse – brutzelnd frisch, mit aufsteigendem Dampf"
         tone="ember"
       />
       <BuffetMenu />
       <FeatureBand />
       <ImageBand
-        alt="Farbenfrohe Gerichte, großzügig angerichtet mit glänzenden Saucen"
-        label="Großzügig angerichtet"
-        caption="Farbenfrohe Gerichte · glänzende Saucen · zum Teilen gemacht"
+        src="/images/sushi.jpg"
+        alt="Frisch gerollte Sushi mit glänzender Sauce im warmen Licht"
+        label="Frisch gerollt"
+        caption="Frisches Sushi · glänzende Saucen · zum Teilen gemacht"
         tone="gold"
       />
       <MenuDownload />
