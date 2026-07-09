@@ -49,7 +49,7 @@ export function ImageBand({
 
       <div
         className="absolute inset-0"
-        style={{ background: 'linear-gradient(to top, rgba(20,13,9,0.78), rgba(20,13,9,0.12) 55%, rgba(20,13,9,0.3))' }}
+        style={{ background: 'linear-gradient(to top, rgba(20,13,9,0.88), rgba(20,13,9,0.18) 58%, rgba(20,13,9,0.32))' }}
         aria-hidden="true"
       />
 
